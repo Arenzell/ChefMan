@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.searchArea {
+  background: #f2f2f2;
+
+}
+.content{
+  margin-top:180px!important;
+}
+.mainHeader{
+  position: fixed;
+  top:0;
+  z-index: 999;
+}
+.searchForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px;
+  background: #f2f2f2;
+}
+.initialForm {
+  padding: 5px 0px;
+  background: #ffffff;
+  width: 75%;
+}
+
+.search-btn {
+  padding: 5px 10px;
+  background: #f2f2f2;
+  border: none;
+}
+.initial-btn{
+  background: #ffffff;
+}
+.row {
+  margin: 0;
+  width: 100%;
+}
+
+.search-bar {
+  width: 80%;
+  background: #f2f2f2;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #444444;
+  padding: 5px;
+}
+.initial-bar{
+  width: 100%;
+  font-size: 1.25em!important;
+}
+.logoArea {
+  display: flex;
+  align-items: center;
+  background: #f2f2f2;
+  width: 100%;
+}
+
+.logo {
+  padding-left: 30px;
+  font-size: 1.5em;
+}
+
+.logo small {
+  font-size: 0.6em;
+}
+
+.card {
+  height: 450px;
+}
+
+.reveal-title {
+  font-weight: bolder !important;
+  font-size: 1.5em !important;
+}
+
+.ingredients-title {
+  text-transform: uppercase !important;
+  font-size: 1em !important;
+}
+
+.hero {
+  max-height: 100vh;
+  height: 100vh;
+  max-width: 100vw;
+  width: 100vw;
+  overflow: hidden;
+}
+.initial-logo{
+  
+  text-align: left;
+  font-size: 2em!important;
+}
+.info{
+  color:#8a8a8a;
+}
+.initial-logo small{
+  color: #8a8a8a;
+}
+.hero-left {
+  height: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-right {
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img {
+
+  width: 75%;
+}
+
+@media only screen and (max-width: 768px) {
+  .logoArea {
+    justify-content: center;
+    padding-top: 30px;
+    width: 100%;
+  }
+  .hero-left{
+    display: none;
+  }
+  .row {
+    margin: 0;
+  }
+
+  .logo {
+    padding: 0;
+  }
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+}
